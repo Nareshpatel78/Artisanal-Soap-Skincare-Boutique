@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 430">
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f4efe3"/><stop offset="1" stop-color="#d8ddc9"/></linearGradient>
+      <radialGradient id="glow"><stop stop-color="#fff" stop-opacity=".85"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+      <filter id="shadow"><feGaussianBlur stdDeviation="10"/></filter>
+    </defs>
+    <rect width="400" height="430" rx="30" fill="url(#bg)"/>
+    <circle cx="320" cy="70" r="110" fill="url(#glow)"/>
+    <path d="M0 365 Q95 325 170 372 T400 350 V430 H0Z" fill="#a8b398" opacity=".34"/>
+    <g opacity=".55" fill="none" stroke="#6f865e" stroke-width="3">
+      <path d="M28 335 Q66 274 91 232 M58 287 Q26 270 23 243 M70 269 Q108 257 119 225"/>
+      <path d="M370 350 Q334 295 319 258 M345 307 Q378 287 381 258"/>
+    </g>
+    <g fill="#81966d" opacity=".6"><ellipse cx="38" cy="246" rx="17" ry="8" transform="rotate(-35 38 246)"/><ellipse cx="110" cy="230" rx="18" ry="8" transform="rotate(-25 110 230)"/><ellipse cx="358" cy="276" rx="20" ry="8" transform="rotate(35 358 276)"/></g>
+    <ellipse cx="200" cy="353" rx="125" ry="19" fill="#4e5848" opacity=".25" filter="url(#shadow)"/>
+    
+        <rect x="124" y="138" width="152" height="202" rx="30" fill="#d7c4a0" stroke="#f7ead3" stroke-width="4"/>
+        <rect x="154" y="103" width="92" height="48" rx="10" fill="#d7c7a9"/>
+        <rect x="166" y="83" width="68" height="26" rx="7" fill="#343b34"/>
+        <path d="M143 176 Q200 160 257 176" fill="none" stroke="#fff" stroke-opacity=".4" stroke-width="5"/>
+        <text x="200" y="238" text-anchor="middle" font-family="Georgia" font-size="16" fill="#fff7e9">ARTISANAL</text>
+        <text x="200" y="260" text-anchor="middle" font-family="Arial" font-size="10" fill="#fff7e9">SKINCARE</text>
+    <text x="200" y="393" text-anchor="middle" font-family="Georgia" font-size="15" fill="#344538">Shea Butter Body Lotion</text>
+    <text x="200" y="414" text-anchor="middle" font-family="Arial" font-size="9" letter-spacing="2" fill="#69745e">HANDCRAFTED • BOTANICAL CARE</text>
+    </svg>
